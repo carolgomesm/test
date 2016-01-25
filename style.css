@@ -1,0 +1,96 @@
+body{
+  background: #085078 ; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #085078  , #85D8CE ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #085078  , #85D8CE ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Lato', sans-serif;
+}
+/** GENERAL **/
+.container{
+  width: 40%;
+  height: 600px;
+  background: white;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 3%;
+  box-shadow: 5px 5px 5px #8aa39b;
+}
+
+form{
+  margin: 30px auto;
+  width: 70%;
+}
+.top{
+  margin-bottom: 10px;
+}
+.top input {
+    margin-top: 9px;
+    padding-right: 72px;
+    border: 2px solid #747572;
+}
+.bottom select{
+  margin-top: 5px;
+}
+
+select{
+  border: 2px solid #747572;
+  width: 195px;
+  height: 165px;
+}
+
+/** BUTTONS **/
+#myButton{
+  float: right;
+  clear: both;
+  margin: 10px;
+  padding-bottom:10px;
+}
+#addButton{
+  float: right;
+  clear: both;
+  margin-right:15px;
+  margin-bottom: 5px;
+}
+button{
+  margin: 5px;
+  font-family: 'Lato', sans-serif;
+  padding: 7px 10px;
+  font-size: 12px;
+  border-radius: 8px;
+  width: 100px;
+  background:#e8efed;
+}
+
+/** Media Queries **/
+@media only screen and (max-width: 700px) {
+  .container{
+    width: 90%;
+    height: 460px;
+    text-align: center;
+  }
+  select{
+    height: 100px;
+  }
+  .top{
+    margin-bottom: 50px;
+  }
+
+  h2{
+    margin-top: -20px;
+  }
+  .b1{
+    margin: 3px 50px;
+  }
+  button{
+    margin: 3px 40px;
+    padding: 5px 3px;
+    font-size: 10px;
+    background:#e8efed;
+  }
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1180px) {
+  .container{
+    width: 95%;
+  }
+}
